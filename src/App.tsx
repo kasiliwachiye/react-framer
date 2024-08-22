@@ -28,11 +28,11 @@ function App() {
         variants={gridContainerVariants}
         initial="hidden"
         animate="shown"
-        className="grid grid-cols-3 p-10 gap-10"
+        className="grid grid-cols-1 p-4 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:p-10 lg:gap-10"
       >
         <motion.div
           variants={gridSquareVariants}
-          className="bg-slate-800 aspect-square rounded-lg justify-center flex items-center gap-10"
+          className="bg-zinc-300 aspect-square rounded-lg justify-center flex items-center gap-10"
         >
           <motion.div
             className="w-1/3 h-1/3 bg-stone-400 rounded-xl"
@@ -81,10 +81,10 @@ function App() {
         </motion.div>
         <motion.div
           variants={gridSquareVariants}
-          className="bg-slate-800 aspect-square rounded-lg justify-center flex items-center gap-10"
+          className="bg-slate-400 aspect-square rounded-lg justify-center flex items-center gap-10"
         >
           <motion.button
-            className="relative bg-stone-100 px-4 py-2 rounded-2xl overflow-hidden text-black"
+            className="relative bg-stone-200 px-4 py-2 rounded-2xl overflow-hidden text-black"
             whileHover="hover"
             whileTap={{ scale: 0.9 }}
             transition={{ bounceDamping: 10, bounceStiffness: 600 }}
@@ -138,7 +138,7 @@ function App() {
           className="bg-sky-200 aspect-square rounded-lg justify-center flex items-center gap-10"
         >
           <motion.svg
-            className="w-1/3 h-1/3 stroke-slate-900 stroke-[0.5]"
+            className="w-1/3 h-1/3 stroke-slate-900 stroke-[0.25]"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width={24}
