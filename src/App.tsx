@@ -138,7 +138,7 @@ function App() {
           className="bg-sky-200 aspect-square rounded-lg justify-center flex items-center gap-10"
         >
           <motion.svg
-            className="w-1/3 h-1/3 stroke-slate-900 stroke-[0.25]"
+            className="w-1/3 h-1/3 stroke-gray-200 stroke-[0.5]"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width={24}
